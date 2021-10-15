@@ -1,0 +1,20 @@
+POST http://localhost:3333/users/registration
+Content-Type: application/json
+
+{
+    "email": "testowymail1@gmail.com",
+    "password": "testowehaslo"
+}
+
+####
+POST http://localhost:3333/users/login
+Content-Type: application/json
+
+{
+    "email": "testowymail1@gmail.com",
+    "password": "testowehaslo"
+}
+
+###
+DELETE http://localhost:3333/users/delete/61686827b84a917d7d8531b6
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Rvd3ltYWlsMUBnbWFpbC5jb20iLCJ1c2VySWQiOiI2MTY4NzBiYjAxZGYwZjRmZjRiNzE5ZDgiLCJpYXQiOjE2MzQyMzQ1NjksImV4cCI6MTYzNDIzODE2OX0.BrmY-oN44QdGMVWP9WFyH-3uGVH9UsvVd2vurjVdTEA
